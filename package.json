@@ -18,6 +18,7 @@
 	],
 	"main": "index.html",
 	"scripts": {
+		"start": "http-server .",
 		"deploy": "grunt deploy",
 		"postinstall": "grunt install"
 	},
@@ -33,6 +34,7 @@
 	"dependencies": {
 		"bower": "*",
 		"grunt": "*",
+		"http-server": "*",
 		"grunt-contrib-requirejs": "*",
 		"grunt-bower-task": "*",
 		"grunt-contrib-less": "*",
