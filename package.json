@@ -20,6 +20,7 @@
 	"scripts": {
 		"start": "http-server .",
 		"deploy": "grunt deploy",
+		"preinstall": "npm install -g grunt grunt-cli bower less http-server",
 		"postinstall": "grunt install"
 	},
 	"repository": {

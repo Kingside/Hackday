@@ -54,12 +54,33 @@ module.exports = function(grunt) {
 			}
 		},
 
-		clean: ['app/styles/main.css', 'app/index.js']
+		clean: ['app/styles/main.css', 'app/index.js'],
+
+		rsync: {
+			options: {
+				args: ['--verbose', '--update', '--delete', '--delete-excluded', '--ignore-errors', '-h'],
+				exclude: ['node_modules', 'data', '.gitignore', 'bower.json', 'Gruntfile.js', 'LICENSE', 'package.json', 'README.md',
+					'app/config', 'app/events', 'app/fonts', 'app/icons', 'app/images', 'app/lib', 'app/models', 'app/modules',
+					'app/styles', 'app/templates', 'app/views', 'app/**/*.js', 'app/**/*.css', 'app/**/*.less'
+				],
+				include: ['app/index.js', 'app/modules/main.js', 'app/lib/requirejs/require.js', 'app/styles/main.css'],
+				recursive: true
+			},
+			release: {
+				options: {
+					src: '.',
+					dest: '/Library/WebServer/Documents/SuperFan',
+					host: 'kingside.io',
+					syncDestIgnoreExcl: true
+				}
+			}
+		}
 
 	});
 
 	grunt.registerTask('lint', ['jshint']);
 	grunt.registerTask('install', ['bower']);
 	grunt.registerTask('build', ['clean', 'jshint', 'bower', 'less', 'requirejs']);
+	grunt.registerTask('deploy', ['rsync']);
 
 };
