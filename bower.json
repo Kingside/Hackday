@@ -1,0 +1,45 @@
+{
+	"name": "Hackday",
+	"version": "0.0.0",
+	"authors": [
+		"Max Andreola <Max.Andreola@sabre.com",
+		"Vance Weintraub <Vance.Weintraub@sabre.com"
+	],
+	"description": "Sabre Hackday (Summer 2014)",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/Kingside/Hackday.git"
+	},
+	"main": "index.html",
+	"moduleType": [
+		"amd"
+	],
+	"keywords": [
+		"Sabre",
+		"Hackday",
+		"TripCase"
+	],
+	"license": "MIT",
+	"homepage": "tripcase.com",
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"app/lib",
+		"vendor",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"jquery": "*",
+		"underscore": "*",
+		"backbone": "*",
+		"requirejs": "*",
+		"handlebars": "*",
+		"modernizr": "*",
+		"requirejs-domready": "*",
+		"requirejs-text": "*",
+		"almond": "*"
+	}
+}

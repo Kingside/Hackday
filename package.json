@@ -1,0 +1,53 @@
+{
+	"name": "Hackday",
+	"version": "0.0.0",
+	"authors": [
+		"Max Andreola <Max.Andreola@sabre.com",
+		"Vance Weintraub <Vance.Weintraub@sabre.com"
+	],
+	"description": "Sabre Hackday (Summer 2014)",
+	"contributors": [
+		{
+			"name": "Max Andreola",
+			"email": "Max.Andreola@sabre.com"
+		},
+		{
+			"name": "Vance Weintraub",
+			"email": "Vance.Weintraub@sabre.com"
+		}
+	],
+	"main": "index.html",
+	"scripts": {
+		"deploy": "grunt deploy"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:Kingside/Hackday.git"
+	},
+	"keywords": [
+		"Sabre",
+		"Hackday",
+		"TripCase"
+	],
+	"dependencies": {
+		"bower": "*",
+		"grunt": "*",
+		"grunt-contrib-requirejs": "*",
+		"grunt-bower-task": "*",
+		"grunt-contrib-less": "*",
+		"grunt-contrib-jshint": "*",
+		"grunt-rsync": "*",
+		"grunt-convert": "*",
+		"grunt-contrib-concat": "*",
+		"grunt-contrib-clean": "*"
+	},
+	"private": true,
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Kingside/Hackday/issues"
+	},
+	"homepage": "tripcase.com",
+	"engines": {
+		"node": ">=0.10.26"
+	}
+}
