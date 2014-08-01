@@ -6,7 +6,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-convert');
 	grunt.loadNpmTasks('grunt-contrib-requirejs');
 	grunt.loadNpmTasks('grunt-contrib-less');
-	grunt.loadNpmTasks('grunt-jekyll');
 	grunt.loadNpmTasks('grunt-rsync');
 	grunt.loadNpmTasks('grunt-contrib-clean');
 
