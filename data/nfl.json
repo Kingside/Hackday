@@ -1,0 +1,130 @@
+"teams": [
+	{
+		"city": "Baltimore",
+		"name": "Ravens"
+	},
+	{
+		"city": "Cincinnati",
+		"name": "Bengals"
+	},
+	{
+		"city": "Cleveland",
+		"name": "Browns"
+	},
+	{
+		"city": "Pittsburgh",
+		"name": "Steelers"
+	},
+	{
+		"city": "Houston",
+		"name": "Texans"
+	},
+	{
+		"city": "Indianapolis",
+		"name": "Colts"
+	},
+	{
+		"city": "Jacksonville",
+		"name": "Jaguars"
+	},
+	{
+		"city": "Tennessee",
+		"name": "Titans"
+	},
+	{
+		"city": "Buffalo",
+		"name": "Bills"
+	},
+	{
+		"city": "Miami",
+		"name": "Dolphins"
+	},
+	{
+		"city": "New England",
+		"name": "Patriots"
+	},
+	{
+		"city": "New York",
+		"name": "Jets"
+	},
+	{
+		"city": "Denver",
+		"name": "Broncos"
+	},
+	{
+		"city": "Kansas City",
+		"name": "Royals"
+	},
+	{
+		"city": "Oakland",
+		"name": "Raiders"
+	},
+	{
+		"city": "San Diego",
+		"name": "Chargers"
+	},
+	{
+		"city": "Chicago",
+		"name": "Bears"
+	},
+	{
+		"city": "Detroit",
+		"name": "Lions"
+	},
+	{
+		"city": "Green Bay",
+		"name": "Packers"
+	},
+	{
+		"city": "Minnesota",
+		"name": "Vikings"
+	},
+	{
+		"city": "Atlanta",
+		"name": "Falcons"
+	},
+	{
+		"city": "Carolina",
+		"name": "Panthers"
+	},
+	{
+		"city": "New Orleans",
+		"name": "Saints"
+	},
+	{
+		"city": "Tampa Bay",
+		"name": "Buccaneers"
+	},
+	{
+		"city": "Dallas",
+		"name": "Cowboys"
+	},
+	{
+		"city": "New York",
+		"name": "Giants"
+	},
+	{
+		"city": "Philadelphia",
+		"name": "Eagles"
+	},
+	{
+		"city": "Washington",
+		"name": "Red Skins"
+	},
+	{
+		"city": "Arizona",
+		"name": "Cardinals"
+	},
+	{
+		"city": "San Francisco",
+		"name": "49ers"
+	},
+	{
+		"city": "Seattle",
+		"name": "Seahawks"
+	},
+	{
+		"city": "St. Louis",
+		"name": "Rams"
+	}
+]

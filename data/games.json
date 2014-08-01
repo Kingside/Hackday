@@ -1,0 +1,54 @@
+[
+	{
+		"team": "Duke",
+		"date": "09.13.14",
+		"city": "Durham",
+		"state": "NC",
+		"travel_dates": {
+			"start": "9.12.14",
+			"end": "9.13.14"
+		},
+		"flights": {
+			"price": 623.00,
+			"departing": {
+				"time": "5:25p",
+				"travel_time": "4h 14m",
+				"stops": [
+					"CVG"
+				],
+				"airports": {
+					"start": "DFW",
+					"end": "RDU"
+				},
+				"airline": {
+					"iaata": "DEL",
+					"name": "Delta"
+				}
+			},
+			"returning": {
+				"airport": "RDU",
+				"airline": {
+					"iaata": "DEL",
+					"name": "Delta"
+				}
+			},
+			"advice": {
+				"label": "buy",
+				"historical_ranges": {
+					"low": 205,
+					"high": 4459
+				}
+			}
+		},
+		"hotel": {
+			"price": 137,
+			"name": "Courtyard by Marriott",
+			"nights": 1
+		},
+		"car": {
+			"price": 117,
+			"dealer": "Hertz",
+			"days": 2
+		}
+	}
+]
