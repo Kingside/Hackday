@@ -38,6 +38,7 @@
     "requirejs": "*",
     "handlebars": "*",
     "modernizr": "*",
+    "iscroll": "*",
     "requirejs-domready": "*",
     "requirejs-text": "*",
     "almond": "*",
