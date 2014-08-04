@@ -1,0 +1,88 @@
+,
+    {
+        "OriginLocation": "DFW",
+        "DestinationLocation": "PHL",
+        "FareInfo": [
+            {
+                "CurrencyCode": "USD",
+                "LowestNonStopFare": 194.2,
+                "LowestFare": 194.2,
+                "DepartureDateTime": "2014-12-14T00:00:00",
+                "ReturnDateTime": "2014-12-19T00:00:00",
+                "Links": [
+                    {
+                        "rel": "shop",
+                        "href": "https://api.test.sabre.com/v1/shop/flights?origin=DFW&destination=PHL&departuredate=2014-12-14&returndate=2014-12-19"
+                    }
+                ]
+            }
+        ],
+        "Links": [
+            {
+                "rel": "self",
+                "href": "https://api.test.sabre.com/v1/shop/flights/fares?origin=DFW&destination=PHL&lengthofstay=5&departuredate=2014-12-14&pointofsalecountry=US"
+            },
+            {
+                "rel": "linkTemplate",
+                "href": "https://api.test.sabre.com/v1/shop/flights/fares?origin=<origin>&destination=<destination>&lengthofstay=<lengthofstay>&departuredate=<departuredate>&minfare=<minfare>&maxfare=<maxfare>&pointofsalecountry=<pointofsalecountry>"
+            }
+        ]
+    },
+    {
+        "OriginLocation": "DFW",
+        "DestinationLocation": "STL",
+        "FareInfo": [
+            {
+                "CurrencyCode": "USD",
+                "LowestNonStopFare": 310.2,
+                "LowestFare": 280.2,
+                "DepartureDateTime": "2014-09-20T00:00:00",
+                "ReturnDateTime": "2014-09-25T00:00:00",
+                "Links": [
+                    {
+                        "rel": "shop",
+                        "href": "https://api.test.sabre.com/v1/shop/flights?origin=DFW&destination=STL&departuredate=2014-09-20&returndate=2014-09-25"
+                    }
+                ]
+            }
+        ],
+        "Links": [
+            {
+                "rel": "self",
+                "href": "https://api.test.sabre.com/v1/shop/flights/fares?origin=DFW&destination=STL&lengthofstay=5&departuredate=2014-09-20&pointofsalecountry=US"
+            },
+            {
+                "rel": "linkTemplate",
+                "href": "https://api.test.sabre.com/v1/shop/flights/fares?origin=<origin>&destination=<destination>&lengthofstay=<lengthofstay>&departuredate=<departuredate>&minfare=<minfare>&maxfare=<maxfare>&pointofsalecountry=<pointofsalecountry>"
+            }
+        ]
+    },
+    {
+        "OriginLocation": "DFW",
+        "DestinationLocation": "SEA",
+        "FareInfo": [
+            {
+                "CurrencyCode": "USD",
+                "LowestNonStopFare": 316.19,
+                "LowestFare": 297.7,
+                "DepartureDateTime": "2014-10-11T00:00:00",
+                "ReturnDateTime": "2014-10-16T00:00:00",
+                "Links": [
+                    {
+                        "rel": "shop",
+                        "href": "https://api.test.sabre.com/v1/shop/flights?origin=DFW&destination=SEA&departuredate=2014-10-11&returndate=2014-10-16"
+                    }
+                ]
+            }
+        ],
+        "Links": [
+            {
+                "rel": "self",
+                "href": "https://api.test.sabre.com/v1/shop/flights/fares?origin=DFW&destination=SEA&lengthofstay=5&departuredate=2014-10-11&pointofsalecountry=US"
+            },
+            {
+                "rel": "linkTemplate",
+                "href": "https://api.test.sabre.com/v1/shop/flights/fares?origin=<origin>&destination=<destination>&lengthofstay=<lengthofstay>&departuredate=<departuredate>&minfare=<minfare>&maxfare=<maxfare>&pointofsalecountry=<pointofsalecountry>"
+            }
+        ]
+    }

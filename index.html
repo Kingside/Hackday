@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hackday</title>
+	<title>SuperFan</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="description" content="Sabre Hackday (Summer 2014)" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="translucent-black" />
 	<meta name="HandheldFriendly" content="True" />
@@ -20,6 +20,99 @@
 	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="app/icons/Icon-60@2x.png">
 	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="app/icons/Icon-76@2x.png">
 	-->
+	<style>
+		body, main {
+			font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #efefef;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+		header {
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+		h1 {
+			-webkit-box-sizing: border-box;
+			width: 100%;
+			height: 70px;
+			background-color: rgba(0,0,0,0.9);
+			color: white;
+			line-height: 70px;
+			font-weight: 300;
+			text-indent: 0.5em;
+			margin: 0;
+		}
+
+		fieldset {
+			border: none;
+		}
+
+		label {
+			display: block;
+		}
+
+		h2 {
+			font-weight: 500;
+		}
+
+		h3 {
+			font-weight: 100;
+		}
+		button[type="submit"] {
+			margin-left: 12px;
+		}
+		div.padding {
+			padding: 12px;
+			padding-top: 0;
+		}
+/*
+		select {
+			border-radius: 0;
+			-webkit-appearance: none;
+			padding: 5px;
+			margin-top: 5px;
+		}*/
+
+		table {
+			width: 100%;
+			font-size: smaller;
+		}
+
+		label[for='flight'] {
+			font-weight: bold;
+			font-size: 1.05em;
+		}
+
+		td.price {
+			font-weight: bold !important;
+		}
+
+		#book {
+			width: 100%;
+			margin: 5px auto;
+			height: 44px;
+			border-radius: 10px;
+			box-shadow: none;
+			border: none;
+			background-color: #111;
+			color: white;
+			font-size: 17px;
+			text-transform: uppercase;
+			outline: none;
+		}
+
+		#book:focus {
+			outline: none;
+		}
+	</style>
 </head>
 <body>
 <main>
@@ -27,27 +120,7 @@
 		<h1>SuperFan</h1>
 	</header>
 	<article>
-		<form>
-			<label for="league">Select League</label>
-			<select name="league">
-				<option value="nfl">NFL</option>
-				<option value="ncaaf">NCAA Football</option>
-			</select>
-			<label for"team">Select Team</label>
-			<select name="team">
-				<option value="kansas.jayhawks">Kansas Jayhawks</option>
-			</select>
-			<label for="duration">Trip Duration</label>
-			<select name="duration[count]">
-				<option value="1">1</option>
-				<option value="2" selected>2</option>
-				<option value="3">3</option>
-			</select>
-			<select name="duration[unit]">
-				<option value="days" selected>Days</option>
-			</select>
-			<button type="submit" value="search">Search</button>
-		</form>
+
 	</article>
 </main>
 	<!-- Application Code

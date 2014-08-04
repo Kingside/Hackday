@@ -9,10 +9,245 @@
 
 	},
 	"ncaaf": {
-
+		{
+			"city": null,
+			"name": "Florida State"
+		},
+		{
+			"city": null,
+			"name": "Alabama"
+		},
+		{
+			"city": null,
+			"name": "Oklahoma"
+		},
+		{
+			"city": null,
+			"name": "Oregon"
+		},
+		{
+			"city": null,
+			"name": "Auburn"
+		},
+		{
+			"city": null,
+			"name": "Ohio State"
+		},
+		{
+			"city": null,
+			"name": "UCLA"
+		},
+		{
+			"city": null,
+			"name": "Michigan State"
+		},
+		{
+			"city": null,
+			"name": "South Carolina"
+		},
+		{
+			"city": null,
+			"name": "Baylor"
+		},
+		{
+			"city": null,
+			"name": "Stanford"
+		},
+		{
+			"city": null,
+			"name": "Georgia"
+		},
+		{
+			"city": null,
+			"name": "LSU"
+		},
+		{
+			"city": null,
+			"name": "Wisconsin"
+		},
+		{
+			"city": null,
+			"name": "USC"
+		},
+		{
+			"city": null,
+			"name": "Clemson"
+		},
+		{
+			"city": null,
+			"name": "Notre Dame"
+		},
+		{
+			"city": "Kansas City",
+			"name": "Kansas",
+			"code": "KAN"
+		},
+		{
+			"city": null,
+			"name": "Arizona State"
+		},
+		{
+			"city": null,
+			"name": "Ole Miss"
+		},
+		{
+			"city": null,
+			"name": "Texas A&M"
+		},
+		{
+			"city": null,
+			"name": "Kansas State"
+		},
+		{
+			"city": null,
+			"name": "Nebraska"
+		},
+		{
+			"city": null,
+			"name": "North Carolina"
+		},
+		{
+			"city": null,
+			"name": "Texas"
+		},
+		{
+			"city": null,
+			"name": "Washington"
+		},
+		{
+			"city": null,
+			"name": "Harvard"
+		}
 	},
 	"nfl": {
-
+		{
+			"city": "Baltimore",
+			"name": "Ravens"
+		},
+		{
+			"city": "Cincinnati",
+			"name": "Bengals"
+		},
+		{
+			"city": "Cleveland",
+			"name": "Browns"
+		},
+		{
+			"city": "Pittsburgh",
+			"name": "Steelers"
+		},
+		{
+			"city": "Houston",
+			"name": "Texans"
+		},
+		{
+			"city": "Indianapolis",
+			"name": "Colts"
+		},
+		{
+			"city": "Jacksonville",
+			"name": "Jaguars"
+		},
+		{
+			"city": "Tennessee",
+			"name": "Titans"
+		},
+		{
+			"city": "Buffalo",
+			"name": "Bills"
+		},
+		{
+			"city": "Miami",
+			"name": "Dolphins"
+		},
+		{
+			"city": "New England",
+			"name": "Patriots"
+		},
+		{
+			"city": "New York",
+			"name": "Jets"
+		},
+		{
+			"city": "Denver",
+			"name": "Broncos"
+		},
+		{
+			"city": "Kansas City",
+			"name": "Royals"
+		},
+		{
+			"city": "Oakland",
+			"name": "Raiders"
+		},
+		{
+			"city": "San Diego",
+			"name": "Chargers"
+		},
+		{
+			"city": "Chicago",
+			"name": "Bears"
+		},
+		{
+			"city": "Detroit",
+			"name": "Lions"
+		},
+		{
+			"city": "Green Bay",
+			"name": "Packers"
+		},
+		{
+			"city": "Minnesota",
+			"name": "Vikings"
+		},
+		{
+			"city": "Atlanta",
+			"name": "Falcons"
+		},
+		{
+			"city": "Carolina",
+			"name": "Panthers"
+		},
+		{
+			"city": "New Orleans",
+			"name": "Saints"
+		},
+		{
+			"city": "Tampa Bay",
+			"name": "Buccaneers"
+		},
+		{
+			"city": "Dallas",
+			"name": "Cowboys"
+		},
+		{
+			"city": "New York",
+			"name": "Giants"
+		},
+		{
+			"city": "Philadelphia",
+			"name": "Eagles"
+		},
+		{
+			"city": "Washington",
+			"name": "Red Skins"
+		},
+		{
+			"city": "Arizona",
+			"name": "Cardinals"
+		},
+		{
+			"city": "San Francisco",
+			"name": "49ers"
+		},
+		{
+			"city": "Seattle",
+			"name": "Seahawks"
+		},
+		{
+			"city": "St. Louis",
+			"name": "Rams"
+		}
 	},
 	"nascar": {
 

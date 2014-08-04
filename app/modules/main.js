@@ -16,6 +16,7 @@ require.config({
 		iscroll: 'lib/iscroll/build/iscroll',
 		domReady: 'lib/requirejs-domready/domReady',
 		text: 'lib/requirejs-text/text',
+		moment: 'lib/moment/moment',
 		precompiledTemplates: 'templates/compiled'
 	},
 	shim: {

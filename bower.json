@@ -39,6 +39,7 @@
     "handlebars": "*",
     "modernizr": "*",
     "iscroll": "*",
+    "moment": "*",
     "requirejs-domready": "*",
     "requirejs-text": "*",
     "almond": "*",

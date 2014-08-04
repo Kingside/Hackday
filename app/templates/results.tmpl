@@ -1,0 +1,93 @@
+<div class="padding">
+<h2>{{Team}}</h2>
+<h3>2014 NCAA Football Away Schedule</h3>
+<hr/>
+{{#each itineraries}}
+<table>
+	<thead>
+		<tr>
+			<th>@ {{OpposingTeam}}</th>
+			<th>{{City}}, {{State}}</th>
+			<th>{{GameDay}}</th>
+		</tr>
+	</thead>
+	<tbody>
+		<!--  FLIGHT -->
+		<tr>
+			<td colspan="3">
+				<label for="flight">
+					<input name="flight" type="checkbox" checked>
+					Flight
+				</label>
+			</td>
+		</tr>
+		<tr>
+			<td class="price">$278.70</td>
+			<td colspan="2">
+				<span>Delta</span>
+				<span>Fri, 9.12.14 - Sat, 9.13.14</span>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">{{OriginLocation}} 12:11p - {{DestinationLocation}} 5:25p</td>
+			<td>
+				<span>4h 14m</span>
+				<span>1 stop</span>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">{{DestinationLocation}} 10:20a - {{OriginLocation}} 4:31p</td>
+			<td>
+				<span>7h 11m</span>
+				<span>1 stop</span>
+			</td>
+		</tr>
+		<tr>
+			<td>Advice: <span>BUY</span></td>
+			<td colspan="2">
+				Historical Range: $205 - $1459
+			</td>
+		</tr>
+
+		{{#if hotel}}
+		<!-- HOTEL -->
+		<tr>
+			<td colspan="3">
+				<label for="hotel">
+					<input name="hotel" type="checkbox">
+					Hotel
+				</label>
+			</td>
+		</tr>
+		<tr>
+			<td>$137</td>
+			<td>Courtyard by Marriott</td>
+			<td>1 Night</td>
+		</tr>
+		{{/if}}
+
+		{{#if car}}
+		<!-- Car -->
+		<tr>
+			<td colspan="3">
+				<label for="car">
+					<input name="car" type="checkbox">
+					Car
+				</label>
+			</td>
+		</tr>
+		<tr>
+			<td>$117</td>
+			<td>Hertz</td>
+			<td>2 Days</td>
+		</tr>
+		{{/if}}
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="3"><button id="book" value="book" data-travelocity="{{FareInfo.TravelocityLink}}">Book Trip</button></td>
+		</tr>
+	</tfoot>
+</table>
+{{/each}}
+</div>

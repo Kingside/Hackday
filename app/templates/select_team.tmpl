@@ -1,6 +1,7 @@
-<label for="team">Select League</label>
+<label for="team">Select Team</label>
 <select name="team">
+	<option>---</option>
 	{{#each teams}}
-	<option value="{{id}}">{{label}}</option>
+	<option value="{{code}}">{{name}}</option>
 	{{/each}}
 </select>

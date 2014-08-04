@@ -1,24 +1,38 @@
 define(
-	['modules/app', 'backbone', 'handlebars',
-	'text!templates/select_leagues.tmpl'],
-	function(App, Backbone, Handlebars, tmpl) {
+	['modules/app', 'jquery', 'underscore', 'backbone', 'handlebars',
+	'text!templates/select_team.tmpl', 'data/teams'],
+	function(App, $, _, Backbone, Handlebars, tmpl, Teams) {
 
 	var SelectTeamView = Backbone.View.extend({
 
 		tagName: 'fieldset',
 
 		attributes: {
-			id: 'selectLeagueView'
+			id: 'selectTeamView'
 		},
 
 		template: Handlebars.compile(tmpl),
 
-		initialize: function(collection) {
-			this.collection = collection;
+		events: {
+			'change select': 'renderSubmit'
 		},
 
-		render: function() {
-			this.$el.html(this.template({leagues: this.collection.toJSON()}));
+		renderSubmit: function() {
+			var $sv = $('#searchView');
+			if ($sv.find('button[type=submit]').length === 0) {
+				$sv.append('<button type="submit" value="Search">Search</button>');
+			}
+		},
+
+		initialize: function() {
+			var self = this;
+			this.on('leagueChange', function(leagueTeams) {
+				self.render(leagueTeams);
+			});
+		},
+
+		render: function(teams) {
+			this.$el.html(this.template({teams: teams}));
 			$('form').append(this.$el);
 		}
 	});
